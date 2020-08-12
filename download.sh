@@ -19,5 +19,6 @@ chmod +x datasets  #Give permission to access the datasets module
 unzip SARS2-all.zip
 
 #Run phylo.sh for analysis
+bash phylo.sh
 
 
