@@ -8,14 +8,14 @@ bgd = int(0)
 
 file_handle = open('sequence.fasta','w+')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/genomic.fna", "fasta"):
     if(str("NC_045512.2") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
         file_handle.write(str(seq_record.seq))
         file_handle.write('\n')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("IND") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
@@ -26,7 +26,7 @@ for seq_record in SeqIO.parse("genomic.fna", "fasta"):
             break
             file_handle.write('\n')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("/NGA/") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
@@ -37,7 +37,7 @@ for seq_record in SeqIO.parse("genomic.fna", "fasta"):
             break
             file_handle.write('\n')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("BRA") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
@@ -48,7 +48,7 @@ for seq_record in SeqIO.parse("genomic.fna", "fasta"):
             break
             file_handle.write('\n')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("EGY") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
@@ -59,7 +59,7 @@ for seq_record in SeqIO.parse("genomic.fna", "fasta"):
             break
             file_handle.write('\n')
 
-for seq_record in SeqIO.parse("genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("BGD") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
