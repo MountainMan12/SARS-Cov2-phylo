@@ -16,7 +16,7 @@ If version is displayed, then your system contains java. Keep in mind that the s
 
 If java is not found, install using command line <br/>
 
-<code> sudo apt-get update </code>
+<code> sudo apt-get update </code> <br/>
 <code> sudo apt-get install default-jre </code>
 
 - curl: To check whether curl is installed 
