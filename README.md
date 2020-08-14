@@ -89,7 +89,7 @@ The code working has been described in the documented version of the project
 - Tracy-Allen Ezechukwu (Nigeria)
 
 ### Contact:
-Pawan Verma
-Email: pawan12394@gmail.com
+Pawan Verma <br/>
+Email: pawan12394@gmail.com <br/>
 Twitter: @VP_312
 
