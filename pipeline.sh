@@ -7,11 +7,11 @@ sudo apt install curl
 # WE WILL KEEP IT CLEAN AND MAKE A NEW FOLDER
 mkdir sars
 cd sars/
-#download for Mac
-curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/mac/datasets'
+#download for Mac (If you are a MacOS user comment out the below command)
+#curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/mac/datasets'
 
 #download for linux (If you are a linux user comment out the above line)
-#curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets' 
+curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets' 
 
 chmod +x datasets  #Give permission to access the datasets module
 
@@ -27,6 +27,7 @@ echo "Extracting batch sequences from the SARS-CoV2 dataset"
 
 python getseq.py
 
+cd ..
 
 #-------------3. ANALYSIS -------------------------
 
