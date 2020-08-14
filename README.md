@@ -45,7 +45,7 @@ If the installation is successful, you should see a list of installed packages w
     
 If the command cannot be found,add conda to PATH environment, open the .bashrc file and add the export PATH command to the end of the file and save it.
 
-<code> sudo nano ~/.bashrc`</code>
+<code> sudo nano ~/.bashrc`</code> <br/>
 <code> export PATH=~/miniconda3/bin:$PATH` </code>
 
 - BioPython: Package for running bioinformatics data analysis
