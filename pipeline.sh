@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo apt install curl
-
 #-------------1. DATA DOWNLOAD -------------------------
 
 # WE WILL KEEP IT CLEAN AND MAKE A NEW FOLDER
