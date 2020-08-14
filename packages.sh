@@ -3,12 +3,12 @@
 
 #If you already have conda installed comment out the installation line before running. It would require all operating systems to be 64-bit
 
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
+#wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+#sh Miniconda3-latest-Linux-x86_64.sh
 
 #Follow the on-screen instructions for finishing installation
 
-source ~/.bashrc #will add conda to PATH
+#source ~/.bashrc #will add conda to PATH
 
 #Adding the required channels to conda for seamless installation
 conda config --add channels defaults
