@@ -1,4 +1,4 @@
-# Phylogenetic analysis of SARS-COV-2 from selected countries to determine the epidemiological transmission of the virus
+# Phylogenetic analysis of SARS-COV-2 genomes using MAFFT and iqtree
 
 ## Preparation before running the pipeline
 
