@@ -8,7 +8,7 @@ bgd = int(0)
 
 file_handle = open('sequence.fasta','w+')
 
-for seq_record in SeqIO.parse("sars/ncbi_dataset/genomic.fna", "fasta"):
+for seq_record in SeqIO.parse("sars/ncbi_dataset/data/genomic.fna", "fasta"):
     if(str("NC_045512.2") in str(seq_record)):
         file_handle.write(str(seq_record.description))
         file_handle.write('\n')
