@@ -77,10 +77,6 @@ Once all packages are installed the pipeline can be executed using the bash scri
 
 The code working has been described in the documented version of the project
 
-
-
-
-
 ### Acknowledgements
 - Winfred Gatua (Kenya)
 - Pawan Verma (India)
@@ -92,4 +88,8 @@ The code working has been described in the documented version of the project
 - Peter Josiah Aminu (Nigeria)
 - Tracy-Allen Ezechukwu (Nigeria)
 
+### Contact:
+Pawan Verma
+Email: pawan12394@gmail.com
+Twitter: @VP_312
 
