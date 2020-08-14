@@ -39,9 +39,17 @@ If version information is not displayed, then install (for a 64-bit system)
 Follow on-screen instructions until the installation is complete
 ### NOTE: When asked to add conda_init , enter YES
 
-Add conda to PATH environment
+If the installation is successful, you should see a list of installed packages with
+
+    - `conda list`
+    
+If the command cannot be found,add conda to PATH environment using:
 
 <code> source ~/.bashrc </code>
+
+alternatively
+
+` export PATH=~/miniconda3/bin:$PATH`
 
 - BioPython: Package for running bioinformatics data analysis
 
